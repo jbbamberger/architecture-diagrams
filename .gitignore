@@ -1,0 +1,13 @@
+# Customer notes are confidential — never commit them
+customer-input/*
+!customer-input/README.md
+
+# Generated output — exclude from repo (machine-generated)
+output/*
+!output/.gitkeep
+
+# Extracted assets (derived from PPTs, not source files)
+elastic-assets/extracted_logos/
+
+# macOS
+.DS_Store
